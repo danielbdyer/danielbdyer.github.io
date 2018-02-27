@@ -1,0 +1,192 @@
+@media screen and (max-width: 1358px) {
+
+  .center-block {
+    float: none; }
+
+  }
+
+@media screen and (max-width: 1050px) {
+
+  .cv-chronology > li .cv-timespan span:last-child {
+    font-size: 15px; }
+
+  }
+
+@media screen and (max-width: 1028px) {
+
+  .btn-intro-scroll {
+    margin-top: 30px !important; }
+
+    iframe {
+      width: 445px;
+      height: 250px; }
+
+    .overlay {
+      background: transparent;
+      position: relative;
+      width: 445px;
+      height: 250px;
+      top: 250px;
+      margin-top: -250px; }
+
+    .project-video {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
+  }
+
+@media screen and (max-width: 992px) {
+
+  .about-media {
+    text-align: center; }
+
+  #about {
+    padding-top: 100px; }
+
+  .left {
+    padding-right: 0px; }
+
+  .right {
+    padding-left: 0px; }
+
+  .cv-chronology > li .cv-timespan {
+    width: 28%; }
+
+  iframe {
+    width: 448px;
+    height: 252px; }
+
+  .overlay {
+    background: transparent;
+    position: relative;
+    width: 448px;
+    height: 252px;
+    top: 252px;
+    margin-top: -252px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .header-main h2 {
+    font-size: 40px; }
+
+  .header-main h3 {
+    font-size: 20px; }
+
+  .about {
+    height: 150%; }
+
+  .about-media {
+    text-align: center !important; }
+
+  .left {
+    padding-right: 0px; }
+
+  .right {
+    padding-left: 0px; }
+
+  .card-body h3 {
+    text-align: center;
+  }
+
+  .cv-chronology:before {
+    display: none; }
+
+  .cv-chronology > li .cv-timespan {
+    width: 100%;
+    position: relative;
+    padding: 0 0 20px 0; }
+
+  .cv-chronology > li .cv-timespan span {
+      text-align: left; }
+
+  .cv-chronology > li .time-icon {
+    display: none;
+    position: relative;
+    float: right;
+    left: auto;
+    margin: -55px 5px 0 0px; }
+
+  .cv-chronology > li .cv-job-details {
+    margin: 0 0 30px 0;
+    padding: 1em;
+    font-weight: 400;
+    font-size: 95%; }
+    .cv-chronology > li .cv-job-details:after {
+      right: auto;
+      left: 20px;
+      border-right-color: transparent;
+      border-bottom-color: #f3f3f3;
+      top: -20px; }
+
+  .cv-chronology > li:nth-child(odd) .cv-job-details:after {
+    border-right-color: transparent;
+    border-bottom-color: #f3f3f3; } }
+
+@media screen and (max-width: 570px) {
+
+  .container {
+      width: 97.5%;
+  }
+
+  #about, #skills, #portfolio, #experience {
+    padding-top: 50px;
+    padding-bottom: 25px; }
+
+  .btn-intro-scroll {
+    display: none; }
+
+  iframe {
+    width: 352px;
+    height: 198px; }
+
+  .overlay {
+    background: transparent;
+    position: relative;
+    width: 352px;
+    height: 198px;
+    top: 198px;
+    margin-top: -198px; }
+
+  .page-scroll {
+    width: 100%;
+    margin: 0 auto; }
+    .page-scroll a {
+      text-align: center; }
+
+  .personal-descriptor {
+    width: 320px; }
+
+  .descriptor-container {
+    width: auto; }
+    .descriptor-container:before {
+      display: none; }
+    .descriptor-container:after {
+      display: none; }
+
+  .descriptor-item {
+    font-size: 12px; } }
+
+@media screen and (max-width: 350px) {
+
+  iframe {
+    width: 256px;
+    height: 144px;
+  }
+
+  .overlay {
+       background-color: rgba(0, 0, 0, 0.5);
+       display: block;
+       left: 0;
+       background: transparent;
+       position: relative;
+       width: 256px;
+       height: 144px;
+       top: 144px;
+       margin-top: -144px;
+  }
+
+  .personal-descriptor {
+    width: 315px !important; }
+}
