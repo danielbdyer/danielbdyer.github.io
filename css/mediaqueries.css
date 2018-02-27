@@ -189,4 +189,8 @@
 
   .personal-descriptor {
     width: 315px !important; }
+
+  #navigation-sticky-wrapper {
+    height: 50px !important;  
+  }
 }
