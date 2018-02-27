@@ -11,8 +11,8 @@ $(window).load(function() {
 
 /* Sticky navigation */
 
-$(window).load(function() {
-  $("#navigation").sticky({ topSpacing: 0 });
+$(document).ready(function() {
+  $("#navigation").sticky({ topSpacing: 0, zIndex: 99999 });
 });
 
 /* Smooth scroll */

@@ -38,7 +38,8 @@
 @media screen and (max-width: 992px) {
 
   .about-media {
-    text-align: center; }
+    text-align: center;
+    margin-left: 0px; }
 
   #about {
     padding-top: 100px; }
@@ -168,7 +169,29 @@
   .descriptor-item {
     font-size: 12px; } }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 415px) {
+
+      iframe {
+        width: 338px;
+        height: 190px;
+      }
+
+      .personal-descriptor {
+        width: 414px !important }
+
+      .overlay {
+           background-color: rgba(0, 0, 0, 0.5);
+           display: block;
+           left: 0;
+           background: transparent;
+           position: relative;
+           width: 338px;
+           height: 190px;
+           top: 190px;
+           margin-top: -190px;
+      }
+
+@media screen and (max-width: 376px) {
 
   iframe {
     width: 256px;
@@ -191,6 +214,7 @@
     width: 315px !important; }
 
   #navigation-sticky-wrapper {
-    height: 50px !important;  
+    height: 50px !important;
   }
+}
 }
