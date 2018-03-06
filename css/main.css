@@ -207,18 +207,21 @@ input[type="color"]:focus,
   display: none;
   border-radius: 50%;
   text-align: center;
-  background: rgba(159, 39, 98, 0.9);
+  background-color: #ffd166;
+  opacity: 0.9;
 }
 
 .scrollup svg {
   color: #fff;
+  margin-left: 11px;
+  margin-top: 8px;
   font-size: 15px;
   display: block;
   line-height: 33px;
 }
 
 .scrollup:hover {
-  background: rgba(159, 39, 98, 0.6);
+  background: rgba(159, 39, 98);
 }
 
 .section {
@@ -893,11 +896,13 @@ input[type="color"]:focus,
 }
 
 .scrollup {
-  background: rgba(159, 39, 98, 0.9);
+  background-color: #ef3251;
+  opacity: 0.9;
 }
 
 .scrollup:hover {
-  background: rgba(159, 39, 98, 0.6);
+  background-color: #ef3251;
+  opacity: 0.6;
 }
 
 footer,
