@@ -210,7 +210,7 @@ input[type="color"]:focus,
   background: rgba(159, 39, 98, 0.9);
 }
 
-.scrollup i {
+.scrollup svg {
   color: #fff;
   font-size: 15px;
   display: block;
