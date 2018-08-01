@@ -1,0 +1,30 @@
+<html>
+<head>
+    
+</head>
+<body>
+<div id="test">test</div>
+
+<script>
+
+        var object = document.getElementById("test")
+        
+        function getParentUrl() {
+            var isInIframe = (parent !== window),
+                parentUrl = null;
+
+            if (isInIframe) {
+                parentUrl = document.referrer;
+            }
+
+            return parentUrl;
+        }
+
+        var test = getParentUrl(object);
+
+        document.write('<p>' + test + '</p>');
+
+</script>
+</body>
+
+</html>
